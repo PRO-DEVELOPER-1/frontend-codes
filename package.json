@@ -17,6 +17,9 @@
     "tailwindcss": "^3.3.3",
     "http-proxy-middleware": "^2.0.6"
   },
+  "engines": {
+    "node": ">=18 <=20"
+  },
   "browserslist": {
     "production": [
       ">0.2%",
