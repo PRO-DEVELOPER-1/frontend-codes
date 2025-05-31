@@ -1,0 +1,36 @@
+/* If you want to add custom CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom glow effect for neon theme */
+.glow-text {
+  text-shadow: 0 0 5px rgba(139, 92, 246, 0.7);
+}
+
+.glow-button {
+  box-shadow: 0 0 10px rgba(139, 92, 246, 0.7);
+  transition: all 0.3s ease;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 15px rgba(139, 92, 246, 0.9);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b; /* bg-gray-700 */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #7c3aed; /* primary-600 */
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6d28d9; /* primary-700 */
+}
